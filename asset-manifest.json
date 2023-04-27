@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b0c58670.css",
-    "main.js": "/static/js/main.1f23e55e.js",
-    "index.html": "/index.html",
-    "main.b0c58670.css.map": "/static/css/main.b0c58670.css.map",
-    "main.1f23e55e.js.map": "/static/js/main.1f23e55e.js.map"
+    "main.css": "/easyLeartoRevise/static/css/main.b0c58670.css",
+    "main.js": "/easyLeartoRevise/static/js/main.1f23e55e.js",
+    "index.html": "/easyLeartoRevise/index.html",
+    "main.b0c58670.css.map": "/easyLeartoRevise/static/css/main.b0c58670.css.map",
+    "main.1f23e55e.js.map": "/easyLeartoRevise/static/js/main.1f23e55e.js.map"
   },
   "entrypoints": [
     "static/css/main.b0c58670.css",
