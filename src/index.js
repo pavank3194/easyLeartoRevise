@@ -21,7 +21,7 @@ const val=document.getElementById('root');
 const root = ReactDOM.createRoot(val);
 let component
 switch (window.location.pathname) {
-    case "/Python":
+    case "/easyLertoRevise/Python":
         component=<Python/>
         break;
     case "/Java":
