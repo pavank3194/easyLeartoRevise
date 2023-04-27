@@ -36,6 +36,9 @@ switch (window.location.pathname) {
     case "/JavaScript":
         component=<JavaScript/>
         break;
+    default :
+        component=<Python/>
+        break;
 
     
 }
