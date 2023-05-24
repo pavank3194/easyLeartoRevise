@@ -55,82 +55,13 @@ root.render(
 
   </div>
 );
-
-switch (component.type.name){
-  case "Python":
+if(component.type.name){
   root.render(
     <div>
       <App/>
     </div>
   )
-  break;
-  case "Java":
-    root.render(
-      <div>
-        <App/>
-      </div>
-    )
-  
-  break;
-  case "JavaScript":
-  root.render(
-    <div>
-      <App/>
-      
-    </div>
-  )
-  break;
-  case "C":
-  root.render(
-    <div>
-      
-      <App/>
-    </div>
-  )
-  break;
-  case "Html":
-  root.render(
-    <div>
-      <App/>
-    </div>
-  )
-  break;
-  case "Css":
-  root.render(
-    <div>
-      <App/>
-    </div>
-  )
-  break;
-  case "Dbms":
-  root.render(
-    <div>
-      <App/>
-    </div>
-  )
-  break;
-  case "Php":
-  root.render(
-    <div>
-      <App/>
-    </div>
-  )
-  break;
-  case "C++":
-  root.render(
-    <div>
-      <App/>
-    </div>
-  )
-  break;
-  
-  default :
-  <></>
-  break;
-  
-};
-console.log(component.type.name)
-
+}
 
 
 // $ git config --global user.name "pavank3194" $ git config --global user.email "pavank3194@gmail.com"
