@@ -55,13 +55,13 @@ root.render(
 
   </div>
 );
-if(component.type.name){
-  root.render(
-    <div>
-      <App/>
-    </div>
-  )
-}
+// if(component.type.name){
+//   root.render(
+//     <div>
+//       <App/>
+//     </div>
+//   )
+// }
 
 
 // $ git config --global user.name "pavank3194" $ git config --global user.email "pavank3194@gmail.com"
