@@ -1,9 +1,10 @@
-*{
+/* *{
     background: black;
-}
+} */
 
 .content-navbar{
-    position: fixed;
+    margin-top: 10px;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -34,5 +35,7 @@
     padding: 25px;
     
 }
+
+
 
 

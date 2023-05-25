@@ -1,8 +1,11 @@
 import React from 'react';
-
+import AppNavbar from '../App-navbar';
 
 function Java(){
     return(
+        <>
+        <AppNavbar/>
+        
         <div className="content-language-details">
                 <div className="content-language-left">
                     <ul>
@@ -25,7 +28,7 @@ function Java(){
                 <div className="content-language-right">
                     <h1>Java</h1>
                 </div>
-            </div>
+            </div></>
     )
 };
 

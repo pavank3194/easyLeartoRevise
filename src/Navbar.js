@@ -10,10 +10,10 @@ function Navbar() {
             <img src="dvb" alt="logo" />
           </div>
           <div className="learns-navbar-links-content">
-              <p><a href="#Home">Home</a></p>
-              <p><a href="#About">About</a></p>
-              <p><a href="#Features">Features</a></p>
-              <p><a href="#Menu">Menu</a></p>
+              <p><a href="#/">Home</a></p>
+              <p><a href="#/About">About</a></p>
+              <p><a href="#/Features">Features</a></p>
+              <p><a href="#/Menu">Menu</a></p>
           </div>
         </div>
           <div className="learns-navbar-sign">

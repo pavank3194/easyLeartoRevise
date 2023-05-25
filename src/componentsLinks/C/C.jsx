@@ -1,8 +1,12 @@
 import React from 'react';
 
+import AppNavbar from '../App-navbar';
+
 
 function C(){
     return(
+        <>
+            <AppNavbar/>
         <div className="content-language-details">
                 <div className="content-language-left">
                     <ul>
@@ -26,6 +30,7 @@ function C(){
                     <h1>C Programming</h1>
                 </div>
             </div>
+            </>
     )
 };
 

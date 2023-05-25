@@ -1,8 +1,10 @@
 import React from 'react';
 
-
+import AppNavbar
+ from '../App-navbar';
 function JavaScript(){
     return(
+        <><AppNavbar/>
         <div className="content-language-details">
                 <div className="content-language-left">
                     <ul>
@@ -25,7 +27,7 @@ function JavaScript(){
                 <div className="content-language-right">
                     <h1>JavaScript</h1>
                 </div>
-            </div>
+            </div></>
     )
 };
 

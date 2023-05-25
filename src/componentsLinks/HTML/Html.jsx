@@ -1,8 +1,11 @@
 import React from 'react';
+import AppNavbar from '../App-navbar';
 
 
 function Html(){
     return(
+        <>
+        <AppNavbar/>
         <div className="content-language-details">
                 <div className="content-language-left">
                     <ul>
@@ -25,7 +28,7 @@ function Html(){
                 <div className="content-language-right">
                     <h1>HTML Language</h1>
                 </div>
-            </div>
+            </div></>
     )
 };
 
