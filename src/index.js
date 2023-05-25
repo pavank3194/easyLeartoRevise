@@ -21,26 +21,7 @@ import AppNavbar from './componentsLinks/App-navbar';
 
 const val=document.getElementById('root');
 const root = ReactDOM.createRoot(val);
-let component
-// switch (window.location.pathname) {
-//     case "/Python":
-//         component=<Python/>
-//         break;
-//     case "/Java":
-//         component=<Java/>
-//         break;
-//     case "/Html":
-//         component=<Html/>
-//         break;
-//     case "/C":
-//         component=<C/>
-//         break;
-//     case "/JavaScript":
-//         component=<JavaScript/>
-//         break;
 
-    
-// }
 let maincomponent=
 <div>
   <Header/>
@@ -66,82 +47,6 @@ root.render(
 
   </div>
 );
-
-// switch (component.type.name){
-//   case "Python":
-//   root.render(
-//     <div>
-//       <App/>
-//     </div>
-//   )
-//   break;
-//   case "Java":
-//     root.render(
-//       <div>
-//         <App/>
-//       </div>
-//     )
-  
-//   break;
-//   case "JavaScript":
-//   root.render(
-//     <div>
-//       <App/>
-      
-//     </div>
-//   )
-//   break;
-//   case "C":
-//   root.render(
-//     <div>
-      
-//       <App/>
-//     </div>
-//   )
-//   break;
-//   case "Html":
-//   root.render(
-//     <div>
-//       <App/>
-//     </div>
-//   )
-//   break;
-//   case "Css":
-//   root.render(
-//     <div>
-//       <App/>
-//     </div>
-//   )
-//   break;
-//   case "Dbms":
-//   root.render(
-//     <div>
-//       <App/>
-//     </div>
-//   )
-//   break;
-//   case "Php":
-//   root.render(
-//     <div>
-//       <App/>
-//     </div>
-//   )
-//   break;
-//   case "C++":
-//   root.render(
-//     <div>
-//       <App/>
-//     </div>
-//   )
-//   break;
-  
-//   default :
-//   <></>
-//   break;
-  
-// };
-
-
 
 
 // $ git config --global user.name "pavank3194" $ git config --global user.email "pavank3194@gmail.com"
